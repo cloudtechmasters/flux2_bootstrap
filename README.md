@@ -27,6 +27,6 @@ flux bootstrap github \
   --owner=Naresh240 \
   --repository=flux2_bootstrap \
   --branch=master \
-  --path=. \
+  --path=bootstrap \
   --personal
 ```
