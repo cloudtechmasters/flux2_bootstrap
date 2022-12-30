@@ -30,3 +30,10 @@ flux bootstrap github \
   --path=bootstrap \
   --personal
 ```
+
+## Flux Reconcile
+
+```bash
+flux reconcile source git flux-system                               ### Github Reconcile
+flux reconcile kustomization infrastructure -n flux-system          ### kustomization Reconcile
+```
